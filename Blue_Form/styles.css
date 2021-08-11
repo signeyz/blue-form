@@ -131,8 +131,10 @@ BUTTON GLOBALS
  ================
  */
 
+/* link to image: https://images.pexels.com/photos/1410138/pexels-photo-1410138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
+
 body {
-  background-image: url('https://images.pexels.com/photos/1410138/pexels-photo-1410138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url('/Blue_Form/img/background-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
