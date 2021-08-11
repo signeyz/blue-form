@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet icon" type="image/png" href="/favicon_32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>FORM BLUEY</title>
+  </head>
+  <body id="body-container">
+    <!-- CONTAINER -->
+    <div class="section-center section">
+      <!-- HEADER -->
+      <div class="header">
+        <h1 class="header-h1">Say hello.</h1>
+        <p>Fresh produce open 24/7, 365</p>
+      </div>
+      <form class="form form-section-center">
+        <label class="label" for="name">Your Full Name:</label>
+        <div id="inputs">
+           <input
+             name="firstName"
+             class="input input-firstName"
+             type="text"
+             placeholder="first name"
+             required
+             autocomplete="off"
+           />
+           <input
+             name="lastName"
+             class="input input-lastName"
+             type="text"
+             placeholder="last name"
+             required
+             autocomplete="off"
+           />
+        </div>
+        <label class="label" for="email">Your Email:</label>
+        <input
+          name="email"
+          class="input"
+          type="email"
+          placeholder="e.g. your@email.com"
+          minlength="3"
+          maxlength="25"
+          required
+          autocomplete="off"
+        />
+        <label class="label" for="name">How can we help you?</label>
+        <textarea
+          class="textarea"
+          name="message"
+          placeholder="Write away here..."
+          required
+        ></textarea>
+        <div id="div-btn">
+          <button type="submit" id="submit" class="btn-submit btn">
+            Submit
+          </button>
+          <button type="reset" id="clear" class="btn-clear btn">Clear</button>
+        </div>
+      </form>
+    </div>
+    <div id="overlay"></div>
+    <div id="modal-parent-container" class="modal-section-center">
+      <div class="img-wrapper">
+        <img
+          class="img-crown"
+          src="./img/crown.png"
+          alt="image of crown logo"
+        />
+      </div>
+      <div class="text-modal-wrapper">
+         <h1 class="text-modal-heading">Be sure to sign up!</h1>
+         <p class="text-modal-p">
+           The newsletter is only one email away or become a member and get
+           instant access!
+         </p>
+         <div class="btn-close-wrapper">
+            <button id="modal-close-btn" class="modal-close-btn btn">close</button>
+         </div>
+       </div>
+     </div>
+    </div>
+  </body>
+</html>
