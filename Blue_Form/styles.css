@@ -134,7 +134,7 @@ BUTTON GLOBALS
 /* link to image: https://images.pexels.com/photos/1410138/pexels-photo-1410138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
 
 body {
-  background-image: url('/Blue_Form/img/background-image.jpg');
+  background-image: url('./img/background-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -216,7 +216,7 @@ body {
   overflow: visible; /*overflow: visble is to see placeholder and not have it cut off inside the input field */
 }
 
-.input-firstName {
+.input-first-name {
   margin-bottom: 2rem;
 }
 
@@ -231,6 +231,7 @@ body {
   overflow: auto;
   padding: 0.4em;
   margin-bottom: 0.8rem;
+  position: relative;
 }
 
 .textarea::placeholder {
@@ -277,6 +278,7 @@ body {
 
 #overlay.open {
   display: block;
+  height: 100vh;
 }
 
 /* 
@@ -447,7 +449,7 @@ body {
     display: flex;
   }
 
-  .input-firstName {
+  .input-first-name {
     margin-right: 1rem;
   }
 

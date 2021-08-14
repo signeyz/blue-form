@@ -23,12 +23,13 @@
         <h1 class="header-h1">Say hello.</h1>
         <p>Fresh produce open 24/7, 365</p>
       </div>
-      <form class="form form-section-center" action="/url from formSpree" method="POST">
+      <form class="form form-section-center" action="https://formspree.io/f/myylbgrw" method="POST">
         <label class="label" for="name">Your Full Name:</label>
         <div id="inputs">
            <input
-             name="firstName"
-             class="input input-firstName"
+             name="name"
+             id="name"
+             class="input input-first-name"
              type="text"
              placeholder="first name"
              required
@@ -36,7 +37,7 @@
            />
            <input
              name="lastName"
-             class="input input-lastName"
+             class="input input-last-name"
              type="text"
              placeholder="last name"
              required
@@ -46,6 +47,7 @@
         <label class="label" for="email">Your Email:</label>
         <input
           name="email"
+          id="email"
           class="input"
           type="email"
           placeholder="e.g. your@email.com"
